@@ -1,7 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`tailwindcss`](https://tailwindcss.com/).
 
-## About This Project
-First, start by editing next.config.mjs with the SMTP host, port, username (email) and passowrd that will be responsible for sending the email.
+## Using This Project
+1. Clone the repository
+2. Perform an ```npm install``` at the root of the project, where package.json resides
+3. Replace SMTP information in next.config.mjs with the email you will use for sending
+4. Perform ```npm run dev``` then open [http://localhost:3000](http://localhost:3000) with your browser to see the result
 
 ## Getting Started
 
